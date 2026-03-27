@@ -1483,6 +1483,13 @@ team
         pointer-events: none;
         transition: $t-lg;
 
+        & .mil-muted,
+        & .mil-light-soft,
+        & p,
+        & .mil-link {
+            color: $light;
+        }
+
         & .mil-secrc-text {
             opacity: 0;
             transform: translateY(15px);
@@ -1490,12 +1497,20 @@ team
             transition-delay: 0s;
 
             & a {
-                color: $dark;
+                color: $accent;
                 transition: $t-sm;
 
                 &:hover {
                     color: $accent;
                 }
+            }
+        }
+
+        & .mil-social-icons li a {
+            color: $accent;
+
+            &:hover {
+                color: $accent;
             }
         }
     }
