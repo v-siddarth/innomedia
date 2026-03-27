@@ -1687,12 +1687,44 @@ banner
 }
 .mil-banner .mil-banner-content {
   width: 100%;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
   position: relative;
+}
+.mil-banner .mil-banner-content h1.mil-mb-60 {
+  margin-bottom: 40px;
+}
+.mil-banner .mil-banner-content p.mil-mb-30 {
+  margin-bottom: 20px;
+}
+.mil-banner .mil-banner-content p.mil-mb-60 {
+  margin-bottom: 48px;
+}
+@media screen and (max-width: 1200px) {
+  .mil-banner .mil-banner-content {
+    padding-bottom: 70px;
+  }
+  .mil-banner .mil-banner-content h1.mil-mb-60 {
+    margin-bottom: 34px;
+  }
+  .mil-banner .mil-banner-content p.mil-mb-30 {
+    margin-bottom: 18px;
+  }
+  .mil-banner .mil-banner-content p.mil-mb-60 {
+    margin-bottom: 42px;
+  }
 }
 @media screen and (max-width: 992px) {
   .mil-banner .mil-banner-content {
-    padding-bottom: 90px;
+    padding-bottom: 60px;
+  }
+  .mil-banner .mil-banner-content h1.mil-mb-60 {
+    margin-bottom: 30px;
+  }
+  .mil-banner .mil-banner-content p.mil-mb-30 {
+    margin-bottom: 16px;
+  }
+  .mil-banner .mil-banner-content p.mil-mb-60 {
+    margin-bottom: 36px;
   }
 }
 .mil-banner .mil-lines-place {
